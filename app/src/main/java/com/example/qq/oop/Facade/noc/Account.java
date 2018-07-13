@@ -18,6 +18,6 @@ public class Account {
         t.setText("name             = " + name);
         t2.setText("account name    = " + accountName);
         t3.setText("password        = " + password);
-        t4.setText("save account to NOC database.");
+        t4.setText("save account to NOC DB.");
     }
 }

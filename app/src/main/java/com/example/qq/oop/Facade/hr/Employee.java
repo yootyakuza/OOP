@@ -18,6 +18,6 @@ public class Employee {
         t.setText("name         = " + name);
         t2.setText("department  = " + department);
         t3.setText("tel         = " + tel);
-        t4.setText("save employee to HR database.");
+        t4.setText("save employee to HR DB.");
     }
 }
