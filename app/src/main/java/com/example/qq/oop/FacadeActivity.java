@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.qq.oop.mycom.hr.Employee;
-import com.example.qq.oop.mycom.noc.Account;
-import com.example.qq.oop.mycom.rd.Researcher;
+import com.example.qq.oop.Facade.hr.Employee;
+import com.example.qq.oop.Facade.noc.Account;
+import com.example.qq.oop.Facade.rd.Researcher;
 
 public class FacadeActivity extends AppCompatActivity {
 

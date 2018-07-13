@@ -1,4 +1,4 @@
-package com.example.qq.oop.mycom.rd;
+package com.example.qq.oop.Facade.rd;
 
 import android.widget.TextView;
 
