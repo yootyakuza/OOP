@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index">
+
+    <ImageButton
+        android:id="@+id/butimgFactory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="26dp"
+        android:layout_y="94dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="154dp"
+        android:text="Factory Method" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="154dp"
+        android:text="Builder" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="276dp"
+        android:text="Facade" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="153dp"
+        android:text="Singleton" />
+
+    <ImageButton
+        android:id="@+id/butimgBuilder"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="133dp"
+        android:layout_y="93dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageButton
+        android:id="@+id/butimgSingleton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="226dp"
+        android:layout_y="95dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ImageButton
+        android:id="@+id/butFacade"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="217dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+</AbsoluteLayout>

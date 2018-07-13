@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacadeActivity">
+
+    <Button
+        android:id="@+id/butFacade3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butFacade2"
+        android:text="Click to see R&amp;D" />
+
+    <Button
+        android:id="@+id/butFacade2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butFacade1"
+        android:text="Click to see Account" />
+
+    <Button
+        android:id="@+id/butFacade1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Click to see Employee" />
+
+    <TextView
+        android:id="@+id/tF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tF"
+        android:layout_marginTop="66dp" />
+
+    <TextView
+        android:id="@+id/tF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tF"
+        android:layout_marginTop="101dp" />
+
+    <TextView
+        android:id="@+id/tF4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tF"
+        android:layout_marginTop="135dp" />
+</RelativeLayout>
